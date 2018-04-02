@@ -1,0 +1,17 @@
+{
+  "editor.rulers": [80],
+  "editor.tabCompletion": true,
+  "editor.tabSize": 2,
+  "editor.trimAutoWhitespace": true,
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    ".nyc_output": true,
+    "coverage": true,
+    "packages/*/dist": true,
+    "packages/*/api-docs": true
+  },
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true
+}

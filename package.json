@@ -1,0 +1,20 @@
+{
+  "name": "orchejs",
+  "version": "1.0.0",
+  "description": "Enhance your APIs",
+  "main": "index.ts",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "",
+    "build": ""
+  },
+  "keywords": ["API", "NodeJS", "Endpoints", "GraphQL", "REST"],
+  "author": {
+    "name": "Mauricio Gemelli Vigolo",
+    "email": "@mauriciovigolo",
+    "url": "https://mauriciovigolo.com"
+  },
+  "license": "MIT"
+}
