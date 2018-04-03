@@ -1,0 +1,33 @@
+{
+  "name": "@orche/rest",
+  "version": "0.1.0",
+  "description": "Orchejs - REST Module",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "author": {
+    "name": "Mauricio Gemelli Vigolo",
+    "email": "@mauriciovigolo"
+  },
+  "keywords": [
+    "orchejs",
+    "rest",
+    "api",
+    "endpoints"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orchejs/orchejs/issues"
+  },
+  "homepage": "https://github.com/orchejs/orchejs/rest#readme",
+  "dependencies": {
+    "reflect-metadata": "^0.1.12"
+  }
+}
