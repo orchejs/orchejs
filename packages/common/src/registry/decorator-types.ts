@@ -7,12 +7,20 @@
  */
 export abstract class AbstractDecorator {
   private _decoratedItemName: string;
+  private _decoratorName: string;
+  private _type: string;
+  private _value: any;
+  private _metadata: any;
 }
 
 /**
  * TODO: TBD add documentation
  */
-export class ClassDecorator extends AbstractDecorator {}
+export class ClassDecorator extends AbstractDecorator {
+  private _properties: PropertyDecorator[];
+  private _methods: MethodDecorator[];
+  private _constructor: Function;
+}
 
 /**
  * TODO: TBD add documentation
@@ -22,9 +30,14 @@ export class PropertyDecorator extends AbstractDecorator {}
 /**
  * TODO: TBD add documentation
  */
-export class MethodDecorator extends AbstractDecorator {}
+export class MethodDecorator extends AbstractDecorator {
+  private _parameters: ParameterDecorator[];
+}
 
 /**
  * TODO: TBD add documentation
  */
-export class ParameterDecorator extends AbstractDecorator {}
+export class ParameterDecorator extends AbstractDecorator {
+  private _paramIndex: number;
+  private _paramName: string;
+}
